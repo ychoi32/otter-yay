@@ -12,6 +12,9 @@ body{
 	position: absolute;
 }
 
+.video{
+	top: 20px
+}
 
 #key{
 	width: 40px;
