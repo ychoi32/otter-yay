@@ -1,0 +1,112 @@
+body{
+	background-color: black;
+}
+
+#otter-world{
+	color: white;
+}
+
+#seaweed{
+	top: 10px;
+	width: 20px;
+	position: absolute;
+}
+
+
+#key{
+	width: 40px;
+	height: auto;
+	transition: transform 1s ease 0s;
+}
+
+#key:hover {
+	transform: scale(0)
+}
+
+#rabbit-hole{
+	bottom: 40px;
+	right:40px;
+	width: 80px;
+	height: auto;
+	transition: transform 0.7s ease 0s;
+	opacity: 0.3;
+}
+
+
+#rabbit-hole:hover {
+	transform: scale(2);
+}
+
+
+#jungle-tree {
+	height: 360px; 
+	position: absolute;
+	bottom: 0;
+	left: 30;
+
+}
+
+#jungle-tree2 {
+
+	height: 360px; 
+	position: absolute;
+	right: 30px;
+	bottom: 0;
+
+}
+
+
+#otterLeft{
+	position: absolute;
+	left: 200px;
+	bottom: 0;
+}
+
+/*#otterLeft:hover {
+	transform: scale(0)
+}*/
+
+
+#otterRight{
+	position: absolute;
+	right: 200px;
+	bottom: 0;
+	animation: handsup 3s ease-in-out 1s infinite;
+}
+
+
+
+
+#key2{
+	width: 70px;
+	height: auto;
+	transition: transform 1s ease 0s;
+	animation: catchTheKey 3s ease-in-out 1s infinite;
+}
+
+#key2:hover {
+	transform: scale(0)
+}
+
+@keyframes catchTheKey{
+	0%{
+		transform: rotate(0deg);
+
+	}
+
+	100%{
+		transform: rotate(360deg);
+	}
+
+}
+
+#text{
+	color: white;
+	text-align: center;
+
+}
+
+#footer{
+	text-align: center;
+	color: white
+}
